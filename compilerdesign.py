@@ -4,7 +4,7 @@ import sys
 import string
 import random
 
-#Parse tree visualization libraries
+#Parse tree visualization modules
 import anytree
 import graphviz
 from anytree import Node, RenderTree
