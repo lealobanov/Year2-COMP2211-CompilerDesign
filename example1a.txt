@@ -1,0 +1,8 @@
+variables: w x y z
+constants: M D
+predicates: A[2] B[1]
+equality: =
+connectives: land lor implies iff neg
+quantifiers: exists forall
+formula: forall x ( exists y ( A(x,y) implies neg B(x) )  
+lor exists z ( ( (M = z) land B(z) ) land A(x,z) ) ) 
